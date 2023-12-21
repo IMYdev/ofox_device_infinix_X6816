@@ -64,4 +64,4 @@ jobs:
 workflows:
   main:
     jobs:
-      - Build LOS recovery
+      - build
