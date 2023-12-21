@@ -14,12 +14,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 # Inherit from lion device
 $(call inherit-product, device/infinix/lion/device.mk)
 
-# Inherit some common TWRP stuff.
-$(call inherit-product, vendor/twrp/config/common.mk)
+# Inherit some common lineage stuff.
+$(call inherit-product, vendor/lineage/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := lion
-PRODUCT_NAME := twrp_lion
+PRODUCT_NAME := lineage_lion
 PRODUCT_BRAND := Infinix
-PRODUCT_MODEL := Infinix HOT 12 Play
+PRODUCT_MODEL := HOT 12 Play
 PRODUCT_MANUFACTURER := infinix

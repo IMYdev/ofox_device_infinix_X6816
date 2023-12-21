@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_lion.mk
+    $(LOCAL_DIR)/lineage_lion.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_lion-user \
-    twrp_lion-userdebug \
-    twrp_lion-eng
+    lineage_lion-user \
+    lineage_lion-userdebug \
+    lineage_lion-eng
