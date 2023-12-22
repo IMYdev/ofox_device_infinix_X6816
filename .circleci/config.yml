@@ -31,7 +31,7 @@ jobs:
           name: Clone Device Tree and Vendor Tree
           command: |
             cd ~/android/lineage
-            git clone https://github.com/IMYdev/twrp_device_infinix_lion device/infinix/lion
+            git clone https://github.com/IMYdev/twrp_device_infinix_lion -b los-recovery device/infinix/lion
       - run:
           name: Setup CCACHE
           command: |
