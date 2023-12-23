@@ -1,0 +1,3 @@
+allow init functionfs:dir { mounton };
+allow init proc:file { write };
+allow init sysfs:file { open  write };

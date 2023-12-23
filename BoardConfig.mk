@@ -141,6 +141,9 @@ TW_HAS_NO_RECOVERY_PARTITION := true
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/system/etc/recovery.fstab
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 
+# Sepolicy
+BOARD_SEPOLICY_DIRS += device/infinix/lion/sepolicy
+
 # Hardware
 BOARD_USES_MTK_HARDWARE := true
 
